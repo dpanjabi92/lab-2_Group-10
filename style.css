@@ -1,0 +1,353 @@
+
+body{
+    background-color: whitesmoke;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.Milestone_C {
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-left: 35%;
+    overflow-x: hidden;
+    padding-top: 1%;
+}
+
+input{
+    width: 40%;
+    height: 5%;
+    border-radius: 05px;
+    align-items: center;
+    padding: 8px 15px 20px 15px;
+    margin: 8px 0px 12px 0px;
+    box-shadow: 1px 1px 2px 1px grey;
+
+}
+
+.Milestone_C button{
+    width: 16%;
+    height: 15%;
+    border-radius: 05px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container{
+    display: grid;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+
+/*------------table A (Fixture)styling----------*/
+.table-A
+{
+    
+    
+    width: 100%;
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-A thead tr{
+    background-color:#009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.table-A th,
+.table-A td{
+    /* padding-left: 12px 15px; */
+    padding:8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 60px;
+
+}
+.table-A th{
+    font-size: 1.5rem;
+}
+
+.table-A td{
+    font-size: 1.4rem;
+}
+
+
+.table-A tbody tr{
+
+border-bottom: 1px solid #dddddd;
+
+}
+.table-A tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.table-A tbody tr.active-row{
+    font-weight: bold;
+    color: #009879;
+}
+
+ h3{
+    text-align: center;
+    
+}
+ h6{
+     text-align: center;
+     color: brown;
+ }
+
+/*-----------------Table A finish----------------------*/
+
+/*-----------------Table Teams------------------------*/
+.team_info
+{
+    width: 100%;
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.team_info thead tr{
+    background-color:#009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.team_info th,
+.team_info td{
+    /* padding-left: 12px 15px; */
+    padding:10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 80px;
+
+}
+.team_info th{
+    font-size: 1.5rem;
+}
+
+.team_info td{
+    font-size: 1.4rem;
+}
+
+.team_info tbody tr{
+
+border-bottom: 1px solid #dddddd;
+
+}
+.team_info tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.team_info tbody tr.active-row{
+    font-weight: bold;
+    color: #009879;
+}
+
+/*------------------table team finish----------------------*/
+
+.container {
+    width: 100%;
+    align-content: center;
+}
+.container a{
+    align-content: center;
+    align-self: center;
+}
+/*-----------------------Back Button -------------------------*/
+.back_button
+{
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.back_button:hover{
+
+    background-color: #1c6604;
+    color:#fff;
+    transition: 0.8s;
+
+}
+/*-------------------------Edit Button--------------------*/
+
+.edit_button{
+    font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+   background-color: #cc6600;
+   color: #fff;
+
+    border:solid 2px #cc6600;
+    border-radius: 20px;
+
+    padding: 10px 40px;
+}
+
+.edit_button:hover{
+
+    background-color: #804306;
+    color: #fff;
+    transition: 0.8s;
+}
+
+/*---------------------------Delete Button---------------*/
+
+.delete_button{
+    font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+   background-color: #cc3000;
+   color: #fff;
+
+    border:solid 2px #cc3000;
+    border-radius: 20px;
+
+    padding: 10px 40px;
+}
+
+.delete_button:hover{
+
+    background-color: #662804;
+    color: #fff;
+    transition: 0.8s;
+}
+
+/*---------------Title Text -------------------------------------------*/
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+
+.sub_title{
+    text-align: center;
+    display: block;
+    
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #320664;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #cbcbcb;
+}
+.content_form{
+    width: 50%;
+    margin: 20px auto;
+}
+.content_form div{
+    margin-top: 5px;
+}
+#img_div{
+    width: 80%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 1px solid #cbcbcb;
+}
+#img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    float: left;
+    margin: 5px;
+    width: 300px;
+    height: 140px;
+}
+
+
+
+
+#content button{
+    cursor: pointer;
+}
+
+#image{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------*/
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+
+    }
+
+}
